@@ -1,20 +1,25 @@
-# Sistema di Pagamenti in Java
+## Sistemi di Pagamento – Java
 
-Questo progetto simula un sistema di pagamento con diversi metodi:
-- Carta di Credito
-- PayPal
-- Bonifico
+### Descrizione
+Progetto Java console che simula un sistema di gestione dei pagamenti.
+Il progetto gestisce diverse modalità di pagamento e applica logiche di controllo sugli importi.
 
-## Funzionalità principali
-- Creazione di un ordine con prodotti (nome, prezzo).
-- Calcolo del totale dell’ordine.
-- Pagamento tramite interfaccia `MetodoPagamento` (polimorfismo).
+### Funzionalità
+- Selezione del metodo di pagamento
+- Gestione e validazione degli importi
+- Simulazione del processo di pagamento
+- Stampa del riepilogo finale
 
-## Tecnologie utilizzate
-- Linguaggio: Java
-- Paradigmi: OOP (classi, interfacce, polimorfismo)
+### Argomenti trattati
+- Programmazione orientata agli oggetti (OOP)
+- Logica condizionale (`if`, `switch`)
+- Gestione degli input
+- Struttura del codice in Java
 
-## Esecuzione
-1. Compilare le classi.
-2. Eseguire la classe `Main.java`.
-3. Scegliere un metodo di pagamento per completare l’ordine.
+### Come eseguirlo
+1. Clona il repository
+2. Aprilo con IntelliJ
+3. Avvia la classe che contiene il metodo `main`
+
+### Obiettivo
+Applicare la logica di programmazione Java a un caso d’uso realistico.
